@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var person_1 = require("./person");
+var person1 = new person_1.Person("Oscar", 38, "Avda de Madrid");
+person1.printName();
+console.log(person1.yearOfBirth(2023));
+console.log(person1.getAdress());
+var newAdress = person1.getAdress();
+person1.setAdress("Rio Lozoya");
+console.log(person1.getAdress());
