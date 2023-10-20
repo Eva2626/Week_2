@@ -7,6 +7,5 @@ console.log(person1.yearOfBirth(2023));
 console.log (person1.getAdress());
 
 let newAdress = person1.getAdress();
-
 person1.setAdress("Rio Lozoya");
 console.log(person1.getAdress());
